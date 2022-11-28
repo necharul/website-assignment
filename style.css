@@ -142,6 +142,7 @@ span{
     transform: translateY(-50%);
     margin: 0;
     margin-left: 74px;
+    color: #fff;
 }
 .inquiry-content a{
     position: absolute;
@@ -182,4 +183,43 @@ span{
     width: 40px;
     height: 40px;
     margin: 0px 10px;
+}
+.blog-area{
+    height: auto;
+    padding: 70px 0px;
+    box-shadow: 0px 7px 16px #ddd;
+}
+.blog-title{}
+.blog-title h2{
+    text-align: center;
+}
+.blog-area .blog-item{
+    
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+
+}
+.blog-area .blog-1{}
+.blog-area .blog-2{
+    margin-top: 30px;
+}
+.blog-area .blog-3{
+    margin-top: 30px;
+}
+.blog-item .b-half-width{
+    display: inline-block;
+    margin-right: 30px;
+}
+.b-half-width img{
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+}
+.b-half-width h3{
+    font-size: 24px;
+    color: #363958;
+}
+.b-half-width p{
+    color: #6C6C6C;
 }
